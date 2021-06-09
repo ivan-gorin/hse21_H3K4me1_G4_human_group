@@ -1,17 +1,17 @@
-cwd = 'C:\\Users\\Ivan\\Documents\\hse21_H3K4me1_G4_human\\src'
+cwd = 'C:\\Users\\Ivan\\Documents\\hse21_H3K4me1_G4_human_group\\src'
 setwd(cwd)
 
 source('lib.R')
 
 ###
 
-if (!requireNamespace("BiocManager", quietly = TRUE))
-  install.packages("BiocManager")
+#if (!requireNamespace("BiocManager", quietly = TRUE))
+#  install.packages("BiocManager")
 
-BiocManager::install("ChIPseeker")
-BiocManager::install("TxDb.Hsapiens.UCSC.hg19.knownGene")
-BiocManager::install('clusterProfiler')
-BiocManager::install("org.Hs.eg.db")
+#BiocManager::install("ChIPseeker")
+#BiocManager::install("TxDb.Hsapiens.UCSC.hg19.knownGene")
+#BiocManager::install('clusterProfiler')
+#BiocManager::install("org.Hs.eg.db")
 
 library(ChIPseeker)
 library(TxDb.Hsapiens.UCSC.hg19.knownGene)
@@ -19,11 +19,8 @@ library(clusterProfiler)
 
 ###
 
-NAME <- 'H3K4me1_A549.intersect_with_G4'
-#NAME <- 'G4'
+NAME <- 'merged.A549_GM23338_HCT116_intersect_G4'
 
-#NAME <- 'H3K4me1_A549.ENCFF379KHF.hg19.filtered'
-#NAME <- 'H3K4me1_A549.ENCFF675YHQ.hg19.filtered'
 BED_FN <- paste0(DATA_DIR, NAME, '.bed')
 
 ###
