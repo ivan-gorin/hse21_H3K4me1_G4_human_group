@@ -18,5 +18,5 @@ sort -k1,1 -k2,2n A549_GM23338_HCT116_intersect_G4.bed | bedtools merge > merged
 ![a](images/chip_seeker.merged.A549_GM23338_HCT116_intersect_G4.plotAnnoPie.png)
 
 # Визуализация данных в геномном браузере
-![изображение](https://user-images.githubusercontent.com/55275328/121415219-29382e80-c970-11eb-9ed7-3c3d2e70333d.png)
+![изображение](https://user-images.githubusercontent.com/55275328/121415590-95b32d80-c970-11eb-9b0f-6453d3d97323.png)
 Сохраненная сессия в UCSC GenomeBrowser: https://genome.ucsc.edu/s/Bruh/hse21_H3K4me1_G4_human_group 
