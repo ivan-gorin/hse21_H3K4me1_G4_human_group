@@ -1,4 +1,4 @@
-cwd = 'C:\\Users\\Ivan\\Documents\\hse21_H3K4me1_G4_human\\src'
+cwd = 'C:\\Users\\Ivan\\Documents\\hse21_H3K4me1_G4_human_group\\src'
 setwd(cwd)
 source('lib.R')
 
@@ -18,7 +18,7 @@ library(org.Hs.eg.db)
 ###
 
 
-peaks <- toGRanges(paste0(DATA_DIR, 'H3K4me1_A549.intersect_with_G4.bed'), format="BED")
+peaks <- toGRanges(paste0(DATA_DIR, 'merged.A549_GM23338_HCT116_intersect_G4.bed'), format="BED")
 peaks[1:2]
 
 annoData <- toGRanges(TxDb.Hsapiens.UCSC.hg19.knownGene)
