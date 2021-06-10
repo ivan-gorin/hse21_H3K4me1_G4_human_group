@@ -1,5 +1,7 @@
 # hse21_H3K4me1_G4_human_group
 
+Презентация: https://docs.google.com/presentation/d/1nDw-LGOA8DN7Bf3DkzQrHZWGwcWk0yw9ovEKBVkHjqo/edit#slide=id.gdf63eb772b_2_25
+
 ### Состав группы
 |         ФИ        | № группы  |                              github                              |
 |:------------------|:---------:|:-----------------------------------------------------------------|
